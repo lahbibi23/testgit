@@ -1,0 +1,38 @@
+.border{
+    border: 1px solid red ;
+}
+.box{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1rem;
+   
+}
+
+
+
+
+
+
+p{
+    color: brown;
+}
+.box  p.pa  {
+ border: 1px solid red;
+ padding: 1px 2px 3px 4px;
+}
+.btn{
+    background-color: aqua;
+
+}
+ .btn:hover{
+    scale: 1.2;
+    cursor: pointer;
+ }
+
+
+ @media screen and (max-width: 300px) {
+    .box  p.pa  {
+        border: 1px solid red;
+        padding:0;
+       }
+}
